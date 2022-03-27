@@ -20,6 +20,8 @@ func main() {
 			delivery.ShowSongList(appConfig.UseCaseManager.ShowSongListUseCase())
 		case "3":
 			delivery.FindSong(appConfig.UseCaseManager.FindSongByArtist())
+		case "4":
+			delivery.ExitApp()
 		}
 	}
 }
