@@ -21,3 +21,6 @@ input just can be 1 word, if you have 2 words or more, split with underscore ( _
 - Search Song By Artist  
 
 ![image](https://user-images.githubusercontent.com/63460549/160272733-b22ecf74-d833-4f5f-ad15-4df8922a1882.png)
+
+## FOR UPDATED FEATURES (API), CHECK BRANCH 'API' 
+https://github.com/luxamrown/SongLibrary/tree/API
