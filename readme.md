@@ -1,7 +1,7 @@
 # SongLibrary
 SongLibrary made with Go with Clean Architecture (API). 
 Database : SQL
-Dependencies: pgx, sqlx
+Dependencies: pgx, sqlx, gin gonic
 
 ## Features
 
