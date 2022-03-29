@@ -6,14 +6,14 @@ import (
 )
 
 type FindSongByArtist interface {
-	FindSongByArtist(songArtist string) []model.Song
+	FindSongByArtist(songArtist string) ([]model.Song, error)
 }
 
 type findSongByArtist struct {
 	repo repository.SongRepo
 }
 
-func (a *findSongByArtist) FindSongByArtist(songArtist string) []model.Song {
+func (a *findSongByArtist) FindSongByArtist(songArtist string) ([]model.Song, error) {
 	if len(songArtist) == 0 {
 		return a.repo.GetAll()
 	}
