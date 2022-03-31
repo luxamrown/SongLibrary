@@ -9,8 +9,6 @@ Dependencies: pgx, sqlx, gin gonic
 
 ![image](https://user-images.githubusercontent.com/63460549/160584140-1574b6d2-5498-44db-b39e-96c939c6d62f.png)
 
-Not Fix Yet:
-input just can be 1 word, if you have 2 words or more, split with underscore ( _ ), ex: Green_Day
 
 - Show Song List from Database
 
